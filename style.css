@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+ 
+li, a, button{ 
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav-links{
+    list-style: none;
+}
+
+nav-links, li{
+    display: inline-block;
+    padding: 20px 180px;
+}
+
+img{
+    padding-right: 400px;
+    padding-left: 420px;
+}
+
+.services{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    color: black ;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(./assets/how-to-grow-basil-1590506465.jpg);
+    background-size: cover;
+}
+
+
+.projects{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: black ;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(./assets/HartleyBotanic-Malvern2018-Highgrow-3155.jpg);
+    background-size: cover;
+}
+
+
+.about{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: black ;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(./assets/22621217659_5c9e72f867_o-1280x835.jpg);
+    background-size: cover;
+}
+.contact{
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Comfortaa', cursive;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
